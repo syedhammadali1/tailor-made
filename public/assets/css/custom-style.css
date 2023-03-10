@@ -1,0 +1,271 @@
+/*your custom css goes here*/
+
+
+/* New Css Start 6-july-2022 */
+
+.slick-arrow {
+    transition: .5s ease-in-out;
+}
+
+.slick-arrow i {
+    transition: .5s ease-in-out;
+}
+
+.slick-arrow:hover {
+    background: #e62e04;
+}
+
+.slick-arrow:hover i {
+    color: #fff;
+}
+
+
+/* Home Left Section Css Start */
+
+.content_left_col {
+    width: 40%;
+    padding-right: 6px !important;
+}
+
+.content_right_col {
+    width: 60%;
+}
+
+.dis_top_banner_bg {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.dis_top_banner_bg:after {
+    content: '';
+    display: block;
+    padding-bottom: 164%;
+}
+
+.dis_banner_top_wrapper {
+    margin-bottom: 26px;
+}
+
+.pro_left_wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 28px;
+}
+
+.left_pro_bg:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.left_pro_bg {
+    width: 34%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.left_pro_content {
+    width: 65%;
+}
+
+.left_pro_item_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.left_pro_content h3 a {
+    font-size: 16px;
+}
+
+.pro_price span {
+    font-size: 12px;
+}
+
+.pro_price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cut_price {
+    color: #cacaca !important;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.lef_pro_List_wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.lef_pro_List_wrapper {
+    margin-bottom: 10px;
+}
+
+.lef_pro_List_wrapper {
+    height: 330px;
+    overflow-y: scroll;
+}
+
+.lef_pro_List_wrapper::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* .lef_pro_List_wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+} */
+
+.lef_pro_List_wrapper::-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 50px;
+}
+
+.banner_two_main_wrapper {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.banner_two:after {
+    content: '';
+    display: block;
+    padding-bottom: 37%;
+}
+
+.banner_two {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.icon_bg {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.icon_bg:after {
+    content: '';
+    display: block;
+    padding-bottom: 60%;
+}
+
+.icon_items_wrapper {
+    width: 100%;
+    background: #fff;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.icon_content {
+    width: 70%;
+}
+
+.icon_title {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.icon_desc {
+    margin: 0;
+    font-size: 12px;
+    color: #cacaca;
+    line-height: 1;
+}
+
+@media(max-width:568px) {
+    .content_left_col {
+        display: none;
+    }
+    .content_right_col {
+        width: 100% !important;
+    }
+}
+
+
+/* Home Left Section Css End */
+
+
+/* New Css End 6-july-2022 */
+
+
+/* New Css Start 13-july-2022 */
+
+
+/* Header Css Start */
+
+.main_header {
+    background: linear-gradient(0deg, rgba(219, 112, 78, 1) 32%, rgba(240, 75, 55, 1) 66%);
+}
+
+.mian_nav_wrapper li {
+    color: #fff;
+}
+
+.nav-box-text {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+.logo-bar-area i {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+.badge-pill {
+    background: #fff;
+    color: red;
+}
+
+.main_logo {
+    filter: invert(1) brightness(40) grayscale(1) contrast(10);
+}
+
+.front-header-search {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+
+.position-relative.logo-bar-area.z-1 {
+    background-color: var(--soft-primary) !important;
+}
+/* Header Css End */
+
+
+/* New Css End 13-july-2022 */
+
+#measurer-measurement-modal .m-img-preview, #measurer-measurement-modal .m-msg-show, #measurer-measurement-modal .m-error-msg-show {
+    display: none;
+}
+.m-action-btn {
+    background: #ee4730;
+    color: #fff !important;
+}
+
+
+i.fa.fa-map-marker.GetLocation:hover {
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+
+}
